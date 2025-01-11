@@ -258,6 +258,11 @@ section {
       border-radius: 22px;
   }
 
+  .portfolioCard {
+    min-width: 290px;
+    max-width: 3%;
+  }
+
   .portfolioCard img {
     height: 70%;
   }
@@ -278,7 +283,6 @@ section {
     padding: 6px;
     color: #ffffff;
   }
-
   /* Contact */
   /* .contact {
     background: 

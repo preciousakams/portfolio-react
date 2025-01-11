@@ -26,8 +26,8 @@ const navigate = useNavigate();
         <h2>Project Samples</h2>
       </div>
       {products.map((product) => (
-        <div key={product.index} className="card portfolioCard col-md-4 p-3 m-2"  data-aos="fade-up" data-aos-delay="200">
-          <img src={product.img2} className="card-img-top" alt="" />
+        <div key={product.index} className="card portfolioCard col p-3 m-2"  data-aos="fade-up" data-aos-delay="200">
+          <img src={product.img1} className="card-img-top" alt="" />
 
           <div className="card-body">
             <h5 className="card-title">{product.projectName}</h5>

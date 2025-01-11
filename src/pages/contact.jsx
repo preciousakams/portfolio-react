@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="address">
               <i className="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>Lagos Nigeria</p>
+              <p>Scotland</p>
             </div>
 
             <div className="email">
@@ -50,7 +50,7 @@ const Contact = () => {
             <input type="hidden" name="_next" value="https://fascinating-pothos-92a983.netlify.app/contactSubmit.html" />
             <input type="hidden" name="_subject" value="New submission!" />
             <input type="hidden" name="_template" value="table" />
-            <div className="text-center"><button type="submit">Get In Touch</button></div>
+            <div className="text-center"><button style={{backgroundColor: '#41173f', color: 'white'}} type="submit">Get In Touch</button></div>
           </form>
         </div>
 
