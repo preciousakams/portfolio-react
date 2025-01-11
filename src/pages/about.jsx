@@ -12,7 +12,7 @@ const About = () => {
           <h5> I will make your dream of creating cutting-edge products a reality <br/> sooner than you think.
           </h5>
           <h5 style={{fontStyle: "italic", color: "#174119"}}> Contact me for further discussion</h5>
-      </div>
+      </div> 
     </section>
   )
 }
