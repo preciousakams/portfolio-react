@@ -3,7 +3,7 @@ const Skills = () => {
     <section id="skills" className="skills section-bg">
       <div className="container-fluid" data-aos="fade-up">
 
-        <div className="row">
+        <div className="row justify-content-center">
           {/* <div className="flex-wrapper"> */}
                 <div className="skill-col col-md-4 p-3">
                     <div className="about-me-img"> </div>

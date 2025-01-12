@@ -20,7 +20,8 @@ const navigate = useNavigate();
   return (
     <>
     <section className="portfolio section-bg" id="portfolio">
-    <div className="container row" data-aos="fade-up">
+    <div className="container" data-aos="fade-up">
+    <div className=" row justify-content-around">
 
       <div className="section-title">
         <h2>Project Samples</h2>
@@ -35,6 +36,7 @@ const navigate = useNavigate();
           </div>
        </div>
       ))}
+     </div>
      </div>
   </section>
 </>
